@@ -23,30 +23,6 @@ const Industries = () => {
 
   const industries = [
     {
-      image: "1.png",
-      title: "Fashion & Retail",
-      description: "The retail landscape evolves rapidly. We possess the expertise and agility to swiftly develop and deploy solutions that guarantee measurable commercial success.",
-      color: "primary"
-    },
-    {
-      image: "2.png",
-      title: "FMCG",
-      description: "The FMCG sector maintains strong resilience while facing complex supply chain challenges. We deliver proven solutions for sustainable growth.",
-      color: "accent"
-    },
-    {
-      image: "3.png",
-      title: "3PL (Third-Party Logistics)",
-      description: "3PL partnerships are essential in modern commerce. We specialize in B2B SAP Business ByDesign solutions for comprehensive 3PL operations.",
-      color: "primary"
-    },
-    {
-      image: "4.png",
-      title: "E-Commerce",
-      description: "E-commerce faces evolving challenges in an increasingly competitive landscape. Our specialized solutions ensure complete system integration and optimal performance.",
-      color: "accent"
-    },
-    {
       image: "5.png",
       title: "Manufacturing",
       description: "Successful manufacturing depends on streamlined processes and operational excellence. Future-ready solutions are critical for sustained competitive advantage.",
@@ -68,6 +44,30 @@ const Industries = () => {
       image: "8.png",
       title: "Food & Beverage",
       description: "SAP EWM provides powerful warehouse management capabilities that help food and beverage companies maximize operational efficiency and compliance.",
+      color: "accent"
+    },
+    {
+      image: "1.png",
+      title: "Fashion & Retail",
+      description: "The retail landscape evolves rapidly. We possess the expertise and agility to swiftly develop and deploy solutions that guarantee measurable commercial success.",
+      color: "primary"
+    },
+    {
+      image: "2.png",
+      title: "FMCG",
+      description: "The FMCG sector maintains strong resilience while facing complex supply chain challenges. We deliver proven solutions for sustainable growth.",
+      color: "accent"
+    },
+    {
+      image: "3.png",
+      title: "3PL (Third-Party Logistics)",
+      description: "3PL partnerships are essential in modern commerce. We specialize in B2B SAP Business ByDesign solutions for comprehensive 3PL operations.",
+      color: "primary"
+    },
+    {
+      image: "4.png",
+      title: "E-Commerce",
+      description: "E-commerce faces evolving challenges in an increasingly competitive landscape. Our specialized solutions ensure complete system integration and optimal performance.",
       color: "accent"
     }
   ];

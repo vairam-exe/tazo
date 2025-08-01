@@ -6,7 +6,7 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
-/* TAZO BV Design System */
+/* TAZOBV Design System */
 @layer base {
   :root {
     --background: 10 10% 4%; /* Deep Black #0A0A0A */
@@ -39,7 +39,7 @@
 
     --radius: 0.75rem;
 
-    /* Custom TAZO colors */
+    /* Custom TAZOBV colors */
     --electric-blue: 218 100% 50%;
     --midnight-blue: 210 100% 12.5%;
     --cyan-blue: 194 100% 50%;

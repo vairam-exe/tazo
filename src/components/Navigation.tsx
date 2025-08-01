@@ -42,11 +42,11 @@ const Navigation = () => {
               >
                 <img 
                   src="/logo.png" 
-                  alt="TAZO Logo" 
+                  alt="TAZOBV Logo" 
                   className="h-10 w-auto transition-all duration-300"
                 />
                 <span className="text-2xl font-bold text-white tracking-wider">
-                  TAZO
+                  TAZOBV
                 </span>
               </button>
             </div>

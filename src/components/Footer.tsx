@@ -22,7 +22,7 @@ const Footer = () => {
               >
                 <img 
                   src="/logo.png" 
-                  alt="TAZO Logo" 
+                  alt="TAZOBV Logo" 
                   className="h-12 w-auto"
                 />
               </button>
@@ -74,12 +74,14 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-6">Industries</h4>
             <ul className="space-y-3">
               {[
-                { name: 'Fashion & Retail', href: '#industries' },
-                { name: 'FMCG', href: '#industries' },
-                { name: 'E-Commerce', href: '#industries' },
                 { name: 'Manufacturing', href: '#industries' },
                 { name: 'Pharmaceutical', href: '#industries' },
                 { name: 'Automotive', href: '#industries' },
+                { name: 'Food & Beverage', href: '#industries' },
+                { name: 'Fashion & Retail', href: '#industries' },
+                { name: 'FMCG', href: '#industries' },
+                { name: '3PL (Third-Party Logistics)', href: '#industries' },
+                { name: 'E-Commerce', href: '#industries' },
               ].map((link) => (
                 <li key={link.name}>
                   <button
@@ -120,7 +122,7 @@ const Footer = () => {
         <div className="border-t border-white/10 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-sm">
-              © {currentYear} TAZO. All rights reserved.
+              © {currentYear} TAZOBV. All rights reserved.
             </div>
             
             <div className="flex gap-6 text-sm">

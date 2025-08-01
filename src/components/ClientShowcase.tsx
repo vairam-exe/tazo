@@ -39,7 +39,7 @@ const ClientShowcase = () => {
       name: "Sarah Johnson",
       role: "CTO, TechCorp",
       company: "Fortune 500 Manufacturing",
-      content: "TAZO BV transformed our SAP infrastructure, reducing operational costs by 40% while improving system performance. Their expertise in enterprise solutions is unmatched.",
+      content: "TAZOBV transformed our SAP infrastructure, reducing operational costs by 40% while improving system performance. Their expertise in enterprise solutions is unmatched.",
       rating: 5,
       avatar: "👩‍💼"
     },
@@ -55,7 +55,7 @@ const ClientShowcase = () => {
       name: "Elena Rodriguez",
       role: "Digital Transformation Director",
       company: "International Retail Chain",
-      content: "Outstanding cloud migration strategy and execution. TAZO BV guided us through a seamless transition to AWS, ensuring zero downtime and enhanced scalability.",
+      content: "Outstanding cloud migration strategy and execution. TAZOBV guided us through a seamless transition to AWS, ensuring zero downtime and enhanced scalability.",
       rating: 5,
       avatar: "👩‍💻"
     }
@@ -114,7 +114,7 @@ const ClientShowcase = () => {
               What Our Clients Say
             </h3>
             <p className="text-gray-300">
-              Real feedback from businesses that have transformed with TAZO BV
+              Real feedback from businesses that have transformed with TAZOBV
             </p>
           </div>
 
@@ -195,7 +195,7 @@ const ClientShowcase = () => {
               Ready to Join Our Success Stories?
             </h3>
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-              Let's discuss how TAZO BV can help transform your business with enterprise-grade solutions.
+              Let's discuss how TAZOBV can help transform your business with enterprise-grade solutions.
             </p>
             <button
               onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}

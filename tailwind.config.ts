@@ -57,7 +57,7 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// TAZO custom colors
+				    // TAZOBV custom colors
 				'electric-blue': 'hsl(var(--electric-blue))',
 				'midnight-blue': 'hsl(var(--midnight-blue))',
 				'cyan-blue': 'hsl(var(--cyan-blue))',

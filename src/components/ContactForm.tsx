@@ -135,7 +135,7 @@ const ContactForm = () => {
             <div className="flex justify-center mb-6">
               <img 
                 src="/logo.png" 
-                alt="TAZO Logo" 
+                alt="TAZOBV Logo" 
                 className="h-16 w-auto"
               />
             </div>
@@ -144,7 +144,7 @@ const ContactForm = () => {
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Ready to transform your business? Get in touch with our enterprise solution experts 
-              and discover how TAZO BV can accelerate your success.
+              and discover how TAZOBV can accelerate your success.
             </p>
           </div>
         </div>
@@ -163,7 +163,7 @@ const ContactForm = () => {
                 </div>
 
                 <div className="mt-8 pt-8 border-t border-white/10">
-                  <h4 className="text-white font-medium mb-4">Why Choose TAZO BV?</h4>
+                  <h4 className="text-white font-medium mb-4">Why Choose TAZOBV?</h4>
                   <ul className="space-y-2 text-sm text-gray-300">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />

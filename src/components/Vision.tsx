@@ -5,6 +5,10 @@ const Vision = () => {
   const visionRef = useRef<HTMLDivElement>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
+  const scrollToSection = (sectionId: string) => {
+    document.querySelector(sectionId)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   // Floating particles component (simplified)
   const FloatingParticles = () => {
     const particles = Array.from({ length: 15 }, (_, i) => (
@@ -211,7 +215,10 @@ const Vision = () => {
         <div className="scroll-section text-center mt-20">
           <div className="relative inline-block group">
             <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-full blur-lg opacity-50 group-hover:opacity-75 transition-opacity duration-300" />
-            <button className="relative px-8 py-4 bg-gradient-to-r from-primary to-accent rounded-full text-white font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+            <button 
+              onClick={() => scrollToSection('#contact')}
+              className="relative px-8 py-4 bg-gradient-to-r from-primary to-accent rounded-full text-white font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+            >
               Discover Our Impact
               <div className="absolute inset-0 rounded-full bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </button>
