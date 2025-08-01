@@ -49,9 +49,9 @@ const Hero = () => {
         <div className="max-w-4xl">
           {/* Main heading with typewriter effect */}
           <div className="scroll-section mb-6">
-            <h1 className="text-5xl md:text-7xl font-bold leading-normal text-left">
-              <span className="block text-white">Accelerating</span>
-              <span className="block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent animate-gradient">
+            <h1 className="text-5xl md:text-7xl font-bold leading-relaxed text-left">
+              <span className="block text-white pb-2">Accelerating</span>
+              <span className="block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent animate-gradient pb-4">
                 Digital Excellence
               </span>
             </h1>
