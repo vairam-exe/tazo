@@ -7,7 +7,6 @@ import {
   Cog, 
   Smartphone, 
   BarChart3,
-  ArrowRight,
   CheckCircle
 } from 'lucide-react';
 
@@ -120,7 +119,7 @@ const Services = () => {
                 </p>
 
                 {/* Features */}
-                <ul className="space-y-2 mb-6">
+                <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center gap-2 text-sm text-gray-400">
                       <CheckCircle className="w-4 h-4 text-accent flex-shrink-0" />
@@ -128,12 +127,6 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-
-                {/* CTA */}
-                <button className="group/btn flex items-center gap-2 text-primary hover:text-accent transition-colors duration-300 text-sm font-medium">
-                  Learn More
-                  <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
-                </button>
               </div>
             </div>
           ))}
