@@ -29,7 +29,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden noise-overlay">
+    <section id="home" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden noise-overlay pt-16">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-secondary/20"></div>
       <div 
